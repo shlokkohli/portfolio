@@ -10,7 +10,7 @@ const HomeSection = () => {
   };
 
   return (
-    <div className=' flex items-center justify-center gap-29 w-full'>
+    <div className='flex items-center justify-start gap-29 w-full min-h-screen'>
 
       {/* left side */}
       <div className='flex flex-col gap-8 max-w-2xl'>
