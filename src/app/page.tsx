@@ -13,7 +13,7 @@ export default function Home() {
         <Navbar />
       </div>
 
-      <div className="flex flex-col justify-center items-center md:justify-start md:items-start px-10 sm:px-15 md:px-10 lg:px-25 xl:px-50 transition-all duration-500">
+      <div className="flex flex-col justify-center items-center md:justify-start md:items-start px-10 sm:px-15 md:px-10 lg:px-25 xl:px-50 transition-all duration-500 w-full">
         <HomeSection />
         <AboutSection />
         <ProjectSection />
