@@ -49,15 +49,15 @@ const Card = ({imageURL, title, description, TechStack, GithubLink, WebsiteLink}
           {/* buttons */}
           <div className='flex justify-end items-center gap-2'>
 
-            <button className='text-xs cursor-pointer bg-black p-1 px-2 rounded-sm flex gap-1'>
-              <Link href={GithubLink} target='_blank' className='flex justify-center items-center'>
+            <button className='text-xs cursor-pointer bg-black p-1 px-2 rounded-sm flex'>
+              <Link href={GithubLink} target='_blank' className='flex justify-center items-center gap-1'>
                 <Github className='h-4 w-4' />
                 Source
               </Link>
             </button>
 
-            <button className='text-xs cursor-pointer bg-black p-1 px-2 rounded-sm gap-1'>
-              <Link href={WebsiteLink} target='_blank ' className='flex justify-center items-center'>
+            <button className='text-xs cursor-pointer bg-black p-1 px-2 rounded-sm'>
+              <Link href={WebsiteLink} target='_blank ' className='flex justify-center items-center gap-1'>
                 <Globe className='h-4 w-4' />
                 Website
               </Link>
