@@ -19,9 +19,7 @@ const Card = ({imageURL, title, description, TechStack, GithubLink, WebsiteLink}
 
         {/* upper part */}
         <div>
-          <Image
-            height={200}
-            width={200}
+          <img
             className='rounded-t-lg h-auto hover:scale-95 duration-300 hover:rounded-lg'
             src={imageURL}
             alt="WiseUp"
