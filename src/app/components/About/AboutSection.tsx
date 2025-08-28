@@ -14,11 +14,11 @@ const AboutSection = () => {
       </h1>
 
       <p className='md:text-lg text-gray-300 mb-6'>
-        I'm a passionate full-stack developer with over 3 years of experience in creating innovative web solutions. My journey in technology began with a curiosity about how things work, which evolved into a deep love for coding and problem-solving.
+        Hey there! I&apos;m a passionate Full Stack Developer focused on building modern, user-friendly web applications. I enjoy taking on challenges that push me to think critically and improve my craft with every project.
       </p>
 
       <p className='md:text-lg text-gray-300 mb-8'>
-        I specialize in building scalable web applications using modern technologies like React, Next.js, and Node.js. My approach combines technical expertise with creative design thinking to deliver user-centric solutions that make a real impact.
+        I&apos;m driven by a constant desire to learn and grow, while creating applications that are practical, efficient, and impactful. My approach combines curiosity and problem-solving, allowing me to turn ideas into meaningful products that deliver value and lasting impact.
       </p>
 
       <h3 className='text-emerald-600 text-2xl font-bold mb-4 text-center'>

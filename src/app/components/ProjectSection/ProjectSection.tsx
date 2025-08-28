@@ -10,7 +10,7 @@ const ProjectSection = () => {
               Checkout my recent projects
           </h1>
           <p className='text-gray-300 text-center md:text-start'>
-              I've worked on a variety of projects, from simple websites to complex web applications. Here are a few of my favorites.
+              I&apos;ve worked on a variety of projects, from simple websites to complex web applications. Here are a few of my favorites.
           </p>
       </div>
 

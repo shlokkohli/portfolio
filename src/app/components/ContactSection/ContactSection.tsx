@@ -14,7 +14,7 @@ const ContactSection = () => {
                 </span>
             </h1>
             <p>
-                Feel free to reach out — I'd love to hear from you.
+                Feel free to reach out — I&apos;d love to hear from you.
             </p>
         </div>
 

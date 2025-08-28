@@ -2,6 +2,7 @@ import React from 'react'
 import TechStackPill from '../TechStackPill'
 import { Github, Globe } from 'lucide-react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 interface CardDetail {
   imageURL: string,
@@ -18,10 +19,13 @@ const Card = ({imageURL, title, description, TechStack, GithubLink, WebsiteLink}
 
         {/* upper part */}
         <div>
-          <img
+          <Image
+            height={200}
+            width={200}
             className='rounded-t-lg h-auto hover:scale-95 duration-300 hover:rounded-lg'
             src={imageURL}
-            alt="WiseUp" />
+            alt="WiseUp"
+          />
         </div>
 
         {/* lower part */}

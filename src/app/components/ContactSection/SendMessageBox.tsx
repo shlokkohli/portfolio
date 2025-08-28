@@ -9,12 +9,9 @@ const SendMessageBox = () => {
   const [Email, setEmail] = useState<string>('')
   const [Subject, setSubject] = useState<string>('')
   const [message, setMessage] = useState<string>('')
-  const [loading, setLoading] = useState<boolean>(false)
 
   const handleFeedbackFormSubmit = (e : React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-
-    setLoading(true);
 
     try {
 
@@ -31,8 +28,6 @@ const SendMessageBox = () => {
 
       console.log("Error occured sending mail: ", error)
       
-    } finally {
-      setLoading(false);
     }
 
   }
